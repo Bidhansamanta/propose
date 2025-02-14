@@ -21,3 +21,11 @@ document.addEventListener("copy", (event) => event.preventDefault());
 
 // Disable mouse dragging
 document.addEventListener("dragstart", (event) => event.preventDefault());
+
+const priti = document.getElementById("priti");
+
+const pritiName = ()=>{
+    alert("Welcome, My New Girlfriend");
+};
+
+priti.addEventListener("click",pritiName);
